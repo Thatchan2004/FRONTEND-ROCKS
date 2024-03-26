@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<html lang="en">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel='stylesheet' href='style.css'>
+    <title>Chatbot|code Mo</title>
+</head>
+<body>
+        <section class="msger">
+        <header class="msger-header">
+         <div class="msger-header-title">
+            <img src="chatbot.png" alt="" srcset="">
+            <p>Mental Health chatbot</p>
+        </div>
+    </header>
+    <main class="msger-chat">
+        <div class="msg left-msg">
+         <div class="msg-img" style="background-image: url('https://cdn1.iconfinder.com/data/icons/internet-marketing-3-1/32/__bot_chatbot_artificial_robot-512.png');"></div>
+         <div class="msg-bubble">
+             <div class="msg-info">
+                <div class="msg-info-name">BOT</div>
+                <div class="msg-info time">10:45</div>
+             </div>
+            <div class="msg-text">
+            Hi,welcome to the mental health chat bot! Go ahead and send me a message.
+            </div> 
+        </div>
+    </div>
+<div class="msg right-msg">
+     <div class="msg-bubble">
+         <div class="msg-info">
+            <form>
+             <div class="msg-info-name" id="msg-inp"><input id="inp" type="text"><button id="btn" onclick=nameFunction()>submit</button><br><br></div>
+             <div class="msg-info-time">10:45</div>
+            </form>
+            </div>
+
+         <div class="msg-text" id="msginp">
+            Enter Your Name &#128513;
+        </div>
+    </div>
+    <div class="msg-img" style="background-image: url('https://th.bing.com/th/id/R.c3631c652abe1185b1874da24af0b7c7?rik=XBP%2fc%2fsPy7r3HQ&riu=http%3a%2f%2fpluspng.com%2fimg-png%2fpng-user-icon-circled-user-icon-2240.png&ehk=z4ciEVsNoCZtWiFvQQ0k4C3KTQ6wt%2biSysxPKZHGrCc%3d&risl=&pid=ImgRaw&r=0');"></div>
+</div>
+</main>
+<form class="msger-inputarea">
+    </div><input type="text"  class="msger-input" placeholder="Enter your message....">
+    <button type="submit"  class="msger-send-btn"><i class="fa-solid fa-paper-plane"></i></button>
+</form>
+</section>
+<script src="main.js"></script>
+</body>
+</html>
